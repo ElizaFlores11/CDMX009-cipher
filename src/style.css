@@ -1,0 +1,109 @@
+
+
+@font-face {
+  font-family: "Tangerine_Bold";
+  src: url("fonts/Tangerine_Bold.ttf");
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F9CB9C;
+    font-family: Tangerine_Bold;
+}
+footer{
+	height: 100px; 
+	color: black; 
+	font-size: 30px;
+	text-align: center; 
+	font-family: Tangerine_Bold;
+}
+.container {
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #008F99;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 7px 1px #333;
+}
+
+header{
+ height: 200px;
+ width: 100%;  	
+}
+.headerleft{
+	float: left;
+	width: 30%; 
+}
+.headerright{
+	float: right;
+	width: 70%;
+	font-size: 50px;
+	font-family: Tangerine_Bold;  
+}
+.logo{
+	padding: 25px 100px 25px; 
+	width: 100px; 
+	height: 100px; 
+}
+.imginicio{
+	padding-left: 140px; 
+}
+.encabezado{
+	padding-top: 50px;
+	padding-left: 100px;   
+}
+.msg-encode{
+	display: none; 
+}
+.msg-decode{
+	display: none; 
+}
+h1{
+	text-align: center;
+	font-size: 50px; 
+}
+p{
+	text-align: center;
+	font-size: 40px;  
+}
+input{
+	border-radius: 10px;
+	width: 100%; 
+	color: black;
+	background-color: #B4A7D6; 
+	border-color: #B4A7D6;    
+}
+textarea{
+	height: 100px; 
+	width: 100%; 
+	border-radius: 10px; 
+	background-color: #B4A7D6; 
+	border-color: #B4A7D6;
+}
+
+.btn_reload{
+	border-radius: 10px;
+	width: 200px; 
+	color: black;
+	background-color: #B4A7D6; 
+	border-color: #B4A7D6;	
+}
+.msg-ckeck {
+    width: 97%;
+    height: auto;
+    min-height: 130px;
+    background-color: #DADADA;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px 1px #898989;
+}
+.botonpantalla{
+	border-radius: 10px;
+	width: 150px; 
+	color: black;
+	background-color: #B4A7D6; 
+	border-color: #B4A7D6;	
+}

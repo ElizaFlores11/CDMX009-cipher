@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <header>
+        <div class="headerleft">
+            <img class="logo"  src="img/violence.png" alt="Chechenitza">
+        </div>
+        <div class="headerright">   
+            <h4>Bullying School Chechenitza</h4>    
+        </div> 
+    </header>
+
+    <section id="content-cipher" class="container">
+    <div id="login">
+        <div class= "imginicio">
+            <img class="imgageninicio" src="img/violence.png">
+        </div>
+        <div class="encabezado">
+            <a href="#" id="pantalla-encode">
+                <button class="btn_reload">
+                    Codificar 
+                </button>
+            </a>
+            <a href="#" id="pantalla-decode">
+                <button class="btn_reload">
+                    Decodificar 
+                </button>
+            </a>
+        </div>
+    </div>
+    <div id="mensaje-encode" class="msg-encode">
+        <h1>Cifrar</h1>
+        <br>
+        <p>Ingrese Su Mensaje:</p>
+        <textarea id="box-msg-encode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
+        <div class="content-offset">
+        <p>Ingrese N° de desplazamiento:</p>
+        <input type="number" id="numero-encode" class="n_offset_style">
+        </div>
+        <br>
+        <div id="msg-encode" class="msg-ckeck">
+        <p id="resultado-cifrado"></p>
+        </div>
+        <br><br>
+
+        <button  class="botonpantalla" id="regresar">Regresar</button>
+        &nbsp;&nbsp;&nbsp;&nbsp; 
+        <button  class="botonpantalla" id="limpiar2" >Limpiar</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button id="btn_encode" class="botonpantalla">Codifica tu Mensaje</button>
+    </div>
+
+
+    <div id="mensaje-decode" class="msg-decode">
+        <h1>Descifrar</h1>
+        <br>
+        <p>Ingrese Su Mensaje:</p>
+        <textarea id="box-msg-decode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
+        <div class="content-offset">
+        <p>Ingrese N° de desplazamiento</p>
+        <input type="number" id="numero-decode" class="n_offset_style">
+        </div>
+        <br>
+        <div id="msg-decode" class="msg-ckeck">
+        <p id="respuesta-decode"></p>
+        </div>
+        <br><br>
+        <button  class="botonpantalla" id="regresar2">Regresar</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button  class="botonpantalla" id="limpiar" >Limpiar</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button id="btn_decode" class="botonpantalla">Decodifica tu Mensaje</button>
+
+    </div>
+    </section>
+    <br><br>
+    <footer><a href="#" id="info">Informacion</a></footer>
+    <div id="root"></div>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>

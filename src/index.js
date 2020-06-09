@@ -6,6 +6,9 @@ const regresar = document.getElementById("regresar");
 const regresar2= document.getElementById("regresar2");
 const informacion= document.getElementById("info");
 
+const limpiar = document.getElementById("limpiar");
+const limpiar2= document.getElementById("limpiar2");
+
 /*Mostrar datos para cifrar */
 pantallacifrado.addEventListener("click", function() {
   document.getElementById("mensaje-encode").style.display = 'block'; 
@@ -50,4 +53,17 @@ const btnTextDecode = document.getElementById("btn_decode");
 
 informacion.addEventListener("click", function() {
   alert("No puede utilizar la letra 'Ñ'");  
+});
+
+let vacio = ""; 
+limpiar2.addEventListener('click', function(){  
+  document.getElementById("box-msg-encode").value = "";
+  document.getElementById("numero-encode").value = "";
+  document.getElementById("resultado-cifrado").innerHTML = vacio; 
+}); 
+
+limpiar.addEventListener('click', function(){  
+  document.getElementById("box-msg-decode").value = "";
+  document.getElementById("numero-decode").value = "";
+  document.getElementById("respuesta-decode").innerHTML= vacio; 
 });

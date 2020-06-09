@@ -1,55 +1,55 @@
-
-
 @font-face {
   font-family: "Tangerine_Bold";
   src: url("fonts/Tangerine_Bold.ttf");
 }
 body{
-    margin: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
     padding: 0;
     background-color: #F9CB9C;
-    font-family: Tangerine_Bold;
-}
-footer{
-	height: 100px; 
-	color: black; 
-	font-size: 30px;
-	text-align: center; 
 	font-family: Tangerine_Bold;
 }
-.container {
-    width: 50%;
+header{
+	display: flex;
+	flex-direction: row;
+	height: 200px;
+ 	width: 100%;
+}
+.headerleft{
+	width: 30%; 
+	text-align: center;
+}
+.headerright{
+	font-size: 50px;
+	width: 70%;
+	text-align: center;
+	font-family: Tangerine_Bold;
+}
+.logo{
+	padding: 25px 100px 25px; 
+	width: 150px; 
+	height: 150px; 
+}
+.container{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	width: 60%;
     border-radius: 10px;
     padding: 20px;
     border: 1px solid #008F99;
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 40px;
     margin-bottom: 15px;
     background-color: #ffffff;
-    box-shadow: 3px 3px 7px 1px #333;
-}
-
-header{
- height: 200px;
- width: 100%;  	
-}
-.headerleft{
-	float: left;
-	width: 30%; 
-}
-.headerright{
-	float: right;
-	width: 70%;
-	font-size: 50px;
-	font-family: Tangerine_Bold;  
-}
-.logo{
-	padding: 25px 100px 25px; 
-	width: 100px; 
-	height: 100px; 
+	box-shadow: 3px 3px 7px 1px #333;
 }
 .imginicio{
-	padding-left: 140px; 
+	padding-left: 0px;
+}
+.imgageninicio{
+	width: 450px;
 }
 .encabezado{
 	padding-top: 50px;
@@ -77,7 +77,7 @@ input{
 	border-color: #B4A7D6;    
 }
 textarea{
-	height: 100px; 
+	height: 120px; 
 	width: 100%; 
 	border-radius: 10px; 
 	background-color: #B4A7D6; 
@@ -90,6 +90,11 @@ textarea{
 	color: black;
 	background-color: #B4A7D6; 
 	border-color: #B4A7D6;	
+	height: 50px;
+	font-size: 20px;
+}
+.alignleft{
+	padding-left:0px;
 }
 .msg-ckeck {
     width: 97%;
@@ -106,4 +111,11 @@ textarea{
 	color: black;
 	background-color: #B4A7D6; 
 	border-color: #B4A7D6;	
+}
+
+footer{
+	color: black; 
+	font-size: 40px;
+	text-align: center; 
+	font-family: Tangerine_Bold;
 }
